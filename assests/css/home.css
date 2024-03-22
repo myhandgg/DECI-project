@@ -1,20 +1,4 @@
-body{
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0;
-    margin: 0;
-}
-
-*{
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
-    color: #333;
-    transition: .3s;
-}
+@import url(style.css);
 
 /* Start Nav */
 
@@ -37,10 +21,6 @@ nav ul {
     gap: 20px;
     margin: 0;
     padding: 0;
-}
-
-nav ul li a:hover {
-    border-bottom: 1px solid black;
 }
 
 @media (max-width:425px) {
@@ -145,10 +125,6 @@ footer .foot {
 
 footer .foot h4 {
     margin-bottom: 0;
-}
-
-footer p a:hover {
-    border-bottom: 1px solid black;
 }
 
 footer + p {
