@@ -1,0 +1,21 @@
+header{
+    background-color: #ae60f6;
+}
+
+.container{
+    background-image: url(../images/theme2.jpg);
+}
+
+form .theme-btn button {
+    color: #00ffbb;
+}
+
+.kidCalc {
+    background-image: url(../images/theme3-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kidCalc .number-buttons button {
+    color: #670000;
+}

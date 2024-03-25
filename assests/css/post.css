@@ -1,22 +1,26 @@
 @import url(style.css);
 
-p {
+p{
     font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
-h2 {
+h2{
     font-weight: 600;
     font-size: 60px;
 }
 
 /* Start Header */
 
-header {
+header{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
 }
 
-header h1 {
+header h1{
     text-align: center;
     margin: 0;
 }
@@ -24,7 +28,7 @@ header h1 {
 /* End Header */
 /* Start Section */
 
-section {
+section{
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -32,34 +36,36 @@ section {
     gap: 50px;
 }
 
-section .about {
+section .about{
     padding-bottom: 50px;
 }
 
-section .about ,
-section .personal-info .head ,
-section .personal-info .sub-heading ,
-section .personal-info .streaming-music {
+section .about,
+section .personal-info .head,
+section .personal-info .sub-heading,
+section .personal-info .streaming-music{
     border-bottom: 1px solid rgba(0, 0, 0, 0.24);
 }
 
-section .about h1 {
+section .about h1{
     text-align: center;
 }
 
-section .about img {
+section .about img{
     max-width: 100%;
     border-radius: 20px;
 }
 
-@media (max-width:375px) {
-    h2 {
+@media (max-width:375px){
+    h2{
         font-size: 30px;
     }
-    section {
+
+    section{
         padding: 20px;
     }
-    footer a {
+
+    footer a{
         display: block;
     }
 }
@@ -67,18 +73,18 @@ section .about img {
 /* End Section */
 /* Start Footer */
 
-footer {
+footer{
     text-align: center;
     padding: 20px;
     background-color: #333;
 }
 
-footer a {
+footer a{
     color: white;
     padding: 5px;
 }
 
-footer a:hover {
+footer a:hover{
     border-bottom: 1px solid white;
 }
 

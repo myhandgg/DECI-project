@@ -1,0 +1,27 @@
+header{
+    background-color: #333;
+}
+
+.container{
+    background-image: url(../images/theme1.jpg);
+}
+
+form button{
+    background-image: linear-gradient(120deg, #403847 0%, #acc5df 100%);
+}
+
+form .theme-btn button{
+    color: white;
+}
+
+.kidCalc .number-buttons button{
+    color: black;
+}
+
+.kidCalc {
+    background-image: url(../images/calc.jpg);
+}
+
+.kidCalc .calculator{
+    background-color: #333;
+}
